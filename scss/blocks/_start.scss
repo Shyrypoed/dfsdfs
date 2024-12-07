@@ -1,0 +1,47 @@
+.start {
+    text-align: center;
+    background-color: rgb(195, 169, 226);
+    padding: 57px 0 57px 0;
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: rem(36);
+        font-weight: 700;
+        line-height: 110%;
+        margin-bottom: 40px;
+    }
+
+    &__number {
+        margin-bottom: -30px;
+        font-size: rem(26);
+        font-weight: 700;
+        line-height: prc(48, 26);
+        border: 5.21px solid rgb(195, 169, 226);
+        background: rgb(255, 255, 255);
+        border-radius: 45px;
+        display: inline-block;
+        padding: 5px 20px;
+        &:last-child {
+            margin-bottom: 57px;
+        }
+    }
+
+    &__step {
+        text-transform: uppercase;
+        font-size: rem(24);
+        font-weight: 600;
+        line-height: prc(30, 24);
+        letter-spacing: 10%;
+        padding: 60px 22px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20.05px;
+    }
+}
+
+@media (max-width:375px) {
+    .start {
+        &__step {
+            font-size: rem(14);
+        }
+    }
+}

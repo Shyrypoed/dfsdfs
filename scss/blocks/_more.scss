@@ -1,0 +1,41 @@
+.more {
+    background: fixed url(/images/decor/more_bg.png);
+    padding: 30px 26px;
+    background-color: rgb(195, 169, 226);
+    border-radius: 40px 40px 0 0;
+    color: rgb(255, 255, 255);
+    
+    &__title {
+        font-size: rem(19);
+        font-weight: 600;
+        line-height: 110%;
+        margin-bottom: 14px;
+        max-width: 302px;
+    }
+
+    &__nav {
+        margin-left: 40px;
+    }
+
+    &__column {
+        font-size: rem(16);
+        font-weight: 500;
+        line-height: prc(19, 16);
+        list-style: circle;
+        margin: 0 auto 15px 0;
+        max-width: 255px;
+    }
+
+    &__button {
+        margin-top: 40px;
+        border-radius: 50px;
+        padding: 23px 25px;
+        background: rgb(255, 255, 255);
+        color: rgb(195, 169, 226);
+        text-align: center;
+        box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+        font-size: rem(18);
+        font-weight: 600;
+        line-height: prc(19, 18);
+    }
+}

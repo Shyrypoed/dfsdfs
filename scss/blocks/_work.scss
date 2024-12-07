@@ -1,0 +1,45 @@
+.work {
+    padding: 65px 0 56px 0;
+    background: fixed url(/images/decor/home_bg.png);
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: rem(26);
+        font-weight: 700;
+        line-height: prc(30, 26);
+        letter-spacing: 10%;
+        margin: 0 auto 30px auto;
+    }
+
+    &__base {
+        max-width: 380px;
+        padding: 29px 20px 29px 20px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.25);
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto 20px auto;
+    }
+
+    &__descr {
+        max-width: 297px;
+        font-size: rem(20);
+        font-weight: 600;
+        line-height: 110%;
+        span {
+            color: rgb(195, 169, 226);
+        }
+        padding-bottom: 20px;
+    }
+
+    &__subtitle {
+        font-size: rem(16);
+        font-weight: 600;
+        line-height: 110%;
+        letter-spacing: 5%;
+        span {
+            color: rgb(195, 169, 226);
+        }
+        color: rgba(15, 17, 8, 0.8);
+    }
+}

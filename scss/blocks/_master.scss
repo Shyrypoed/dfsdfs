@@ -1,0 +1,57 @@
+.master {
+    padding: 80px 0 65px 0;
+    background: fixed url(/images/decor/home_bg.png);
+
+    &__title {
+        font-size: rem(36);
+        font-weight: 700;
+        line-height: 110%;
+        max-width: 320px;
+        margin-bottom: 30px;
+        span {
+            color: rgb(195, 169, 226);
+        }
+    }
+
+    &__base {
+        background-color: rgb(195, 169, 226);
+        padding: 31px 20px 15px 20px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 50px 0px rgba(124, 33, 233, 0.5);
+        color: rgb(255, 255, 255);
+        span {
+            color: black;
+        }
+        margin-bottom: 30px;
+    }
+
+    &__descr {
+        max-width: 287px;
+        font-size: rem(19);
+        font-weight: 600;
+        line-height: 110%;
+        margin-bottom: 30px;
+    }
+
+    &__column {
+        max-width: 255px;
+        list-style: circle;
+        font-size: rem(16);
+        font-weight: 500;
+        line-height: 105%;
+        margin-bottom: 20px;
+        margin-left: 45px;
+    }
+
+    &__more {
+        margin: 0 auto;
+        font-size: rem(20);
+        font-weight: 600;
+        line-height: 105%;
+        text-align: center;
+        max-width: 296px;
+        span {
+            color: rgb(195, 169, 226);
+        }
+    }
+}

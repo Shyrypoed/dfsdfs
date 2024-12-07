@@ -1,0 +1,20 @@
+.open {
+    padding: 54px 0 112px 0;
+
+    &__button {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 17px 40px;
+        font-size: rem(20);
+        font-weight: 700;
+        line-height: prc(26, 20);
+        border-radius: 9999px;
+        box-shadow: 0px 0px 40px 10px rgba(124, 22, 245, 0.5);
+        background: rgb(124, 22, 245);
+        transition: 0.3s ease;
+        cursor: pointer;
+        &:hover {
+            background: rgb(97, 26, 184);
+        }
+    }
+}

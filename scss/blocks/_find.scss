@@ -1,0 +1,70 @@
+.find {
+    text-align: center;
+    padding: 65px 0 49px 0;
+    background: fixed url(/images/decor/home_bg.png);
+
+    &__title {
+        text-transform: uppercase;
+        font-size: rem(26);
+        font-weight: 700;
+        line-height: prc(30, 26); 
+        max-width: 304px;
+        letter-spacing: 10%;
+        margin: 0 auto 10px auto;
+    }
+
+    &__subtitle {
+        font-size: rem(16);
+        font-weight: 600;
+        line-height: prc(19, 16);
+        letter-spacing: 10%;
+        margin: 0 auto 55px auto;
+        max-width: 276px;
+    }
+
+    &__column {
+        border-radius: 17px;
+        text-transform: uppercase;
+        padding: 20px 27px;
+        background: rgb(195, 169, 226);
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat";
+        font-size: rem(16);
+        font-weight: 700;
+        line-height: prc(22, 16);
+        margin: 0 auto 10px auto;
+        max-width: 344px;
+        transition: 0.3s ease;
+        &:hover {
+            color: rgb(195, 169, 226);
+            background: rgb(255, 255, 255);
+            box-shadow: 0px 0px 50px 0px rgba(15, 17, 8, 0.25);
+            
+        }
+        &:last-child {
+            margin-bottom: 65px;
+        }
+    }
+
+    &__pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 402px;
+        margin: 0 auto;
+    }
+
+    &__pic img {
+        width: 100%;
+    }
+
+    &__desr {
+        font-size: rem(14);
+        font-weight: 600;
+        line-height: prc(17, 14);
+        letter-spacing: 10%;
+        max-width: 358px;
+        margin: 22.5px auto 0 auto;
+    }
+}
+

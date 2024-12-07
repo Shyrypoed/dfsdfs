@@ -1,0 +1,42 @@
+.try {
+    padding: 65px 0 57px 0;
+    background: fixed url(/images/decor/home_bg.png);
+
+    &__title {
+        text-align: center;
+        font-size: rem(26);
+        font-weight: 700;
+        line-height: prc(30, 26);
+        letter-spacing: 10%;    
+        text-transform: uppercase;
+        margin: 0 auto 47px auto;
+    }
+
+    &__base {
+        padding: 34px 24px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        max-width: 382px;
+        border-radius: 16px;
+        box-shadow: 1px 2px 24px 0px rgba(23, 22, 20, 0.08);
+        margin: 0 auto 23.5px auto;
+    }
+
+    &__image {
+        margin-bottom: 26px;
+    }
+
+    &__name {
+        font-size: rem(21);
+        font-weight: 700;
+        line-height: prc(28, 21);
+        margin-bottom: 16px;
+    }
+
+    &__subtitle {
+        font-size: rem(16);
+        font-weight: 500;
+        line-height: prc(24, 16);
+        color: rgb(92, 93, 95);
+    }
+}

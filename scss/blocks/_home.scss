@@ -1,0 +1,43 @@
+.home {
+      background: fixed url(/images/decor/home_bg.png);
+      padding: 40px 0 92px 0;
+	&__container {
+            text-align: center;
+            color: rgba(15, 17, 8, 0.9);
+	}
+
+	&__descr {
+            font-size: rem(14);
+            font-weight: 600;
+            line-height: prc(19, 14);
+            max-width: 245px;
+            margin: 0 auto 59px auto;
+	}
+
+	&__title {
+            text-transform: uppercase;
+            font-size: rem(24);
+            font-weight: 700;
+            line-height: prc(32, 24);
+            margin-bottom: 59px;
+            span {
+                color: rgb(195, 169, 226);
+            }
+	}
+
+	&__subtitle {
+            font-size: rem(16);
+            font-weight: 600;
+            line-height: prc(19, 16);
+            max-width: 313px;
+            margin: 0 auto 15px auto;
+	}
+
+	&__about {
+            font-size: rem(14);
+            font-weight: 500;
+            line-height: prc(17, 14);
+            max-width: 365px;
+            margin: 0 auto;
+	}
+}

@@ -1,0 +1,12 @@
+.footer {
+    padding: 48px 0 48px 0;
+    background-color: rgb(15, 17, 8);
+
+    &__title {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: rem(18);
+        font-weight: 600;
+        line-height: prc(22, 18);
+    }
+}
