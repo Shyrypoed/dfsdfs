@@ -11,18 +11,19 @@
         margin-bottom: 38px;
     }
     
-    &__bases {
+    &__slider {
+        text-align: center;
         display: flex;
         gap: 13px;
-        
+        min-width: 0;
     }
 
     &__photo {
-        margin-bottom: 16px;
+ 
     }
 
     &__title {
-        margin-bottom: 10px;
+        margin: 16px 0 10px 0;
         font-size: rem(19);
         font-weight: 700;
         line-height: 100%;

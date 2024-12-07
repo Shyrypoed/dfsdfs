@@ -300,17 +300,16 @@ a {
   text-align: center;
   margin-bottom: 38px;
 }
-.team__bases {
+.team__slider {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 13px;
-}
-.team__photo {
-  margin-bottom: 16px;
+  min-width: 0;
 }
 .team__title {
-  margin-bottom: 10px;
+  margin: 16px 0 10px 0;
   font-size: 1.1875rem;
   font-weight: 700;
   line-height: 100%;
@@ -417,7 +416,7 @@ a {
 
 .work {
   padding: 65px 0 56px 0;
-  background: fixed url(../images/decor/home_bg.png);
+  background: fixed url(/resume/images/decor/home_bg.png);
 }
 .work__title {
   text-transform: uppercase;
